@@ -482,7 +482,7 @@ popup_content <- glue::glue(
 us_income$popup <- popup_content
 
 ### build the interactive map
-Sys.setenv(MAPBOX_PUBLIC_TOKEN = "pk.eyJ1IjoiamNvbm5zIiwiYSI6ImNtMjVmc2ppZzBzM3EybHB1bGJsNDk3MHgifQ.tFzW7DeAnFbDPgXac_LC5A")
+Sys.setenv(MAPBOX_PUBLIC_TOKEN = "YOUR-KEY")
 
 library(mapgl)
 
