@@ -393,7 +393,7 @@ travis_inflow %>%
 
 
 library(mapdeck)
-token="pk.eyJ1IjoiamNvbm5zIiwiYSI6ImNtMjVmbnBqZTBxeDQybG9nc3B2MHltdjAifQ.CAWSeJi0_rG9GJb9yjUIGA"
+token="YOUR-TOKEN"
 
 ### top MSA region PHZ, Riverside, Orlando
 msa_flow %>% 
