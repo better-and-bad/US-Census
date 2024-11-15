@@ -2,7 +2,7 @@
 
 This repository hosts the R code and data used for analyzing and visualizing US Census data.
 
-# Overview
+## Overview
 
 The project explores various aspects of US Census data using the tidycensus R package. It includes:
 
@@ -11,13 +11,13 @@ Rural Areas: Identifying rural counties based on housing and population criteria
 Income Distribution: Visualizing median household income by race and geography.
 Migration: Mapping migration flows and growth patterns in major cities and states.
 
-# Key Features
+## Key Features
 
 Fetches decennial Census and ACS data using tidycensus.
 Visualizes racial demographics, rural populations, income distributions, and migration flows.
 Produces interactive and static visualizations for deeper insights.
 
-# Setup
+## Setup
 R
 Copy code
 install.packages(c("tidycensus", "dplyr", "ggplot2", "sf", "tigris", "tidyr", "ggthemes", "mapdeck", "glue"))
