@@ -18,18 +18,10 @@ Visualizes racial demographics, rural populations, income distributions, and mig
 Produces interactive and static visualizations for deeper insights.
 
 Setup
-Clone the Repository:
-
-bash
-Copy code
-git clone git@github.com:better-and-bad/US-Census.git
-cd US-Census
-Install Required Packages: Open R or RStudio and run:
-
 R
 Copy code
 install.packages(c("tidycensus", "dplyr", "ggplot2", "sf", "tigris", "tidyr", "ggthemes", "mapdeck", "glue"))
-Set Your Census API Key: Obtain your Census API key, then, set it in R:
+Set Your Census API Key: [Obtain your Census API key](https://api.census.gov/data/key_signup.html), then, set it in R:
 
 R
 Copy code
