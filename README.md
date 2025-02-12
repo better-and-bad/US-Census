@@ -1,7 +1,7 @@
 # US-Census
 
 Big thank you to Kyle Walker for making the [tidycensus package](https://walker-data.com/census-r/an-introduction-to-tidycensus.html)
-! Census data is the most detailed, publically available information we will ever have in our lives. Walker just made it more easily avialbel to us than ever before in history.
+! Census data is the most detailed, publically available information we will ever have in our lives. It's now more easily available than ever before in history.
 
 Census data is used to redistrict US counties, determine who receives trillions of dollars in financial aid and more. 
 
@@ -19,7 +19,7 @@ Migration: Mapping migration flows and growth patterns in major cities and state
 
 
 ## Setup
-1) Download R Studio
+1) [Download R Studio](https://posit.co/downloads/)
 2) Install Packages
  - install.packages(c("tidycensus", "dplyr", "ggplot2", "sf", "tigris", "tidyr", "ggthemes", "mapdeck", "glue", "stringr"))
 3) Set Your Census API Key: [Obtain your Census API key](https://api.census.gov/data/key_signup.html), then, set it in R
