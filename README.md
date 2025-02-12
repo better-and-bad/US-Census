@@ -1,6 +1,7 @@
 # US-Census
 
-Big thank you to Kyle Walker for making the tidycensus package! Census data is the most detailed, publically available information we will ever have in our lives. Walker just made it more easily avialbel to us than ever before in history.
+Big thank you to Kyle Walker for making the [tidycensus package](https://walker-data.com/census-r/an-introduction-to-tidycensus.html)
+! Census data is the most detailed, publically available information we will ever have in our lives. Walker just made it more easily avialbel to us than ever before in history.
 
 Census data is used to redistrict US counties, determine who receives trillions of dollars in financial aid and more. 
 
