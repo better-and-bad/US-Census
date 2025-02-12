@@ -7,7 +7,7 @@ Census data is used to redistrict US counties, determine who receives trillions 
 
 ## Overview
 
-In the todycensus.R script, I use Walker's tidycensus library to look into:
+In the tidycensus.R script, I use Walker's tidycensus library to look into:
 
 Demographics: Analyzing racial composition and population changes between 2010 and 2020.
 
