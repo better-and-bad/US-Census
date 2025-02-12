@@ -7,6 +7,10 @@ library(ggplot2)
 library(sf)
 library(tigris)
 
+# Set your Census API key
+census_api_key("##############", install = TRUE)
+
+
 ### load variables from 2020 Census
 vars_2020 <- load_variables(2020, "pl", cache = TRUE)
 vars_2010 <- load_variables(2010, "pl", cache = TRUE)
@@ -869,17 +873,6 @@ mortgage_clean %>%  filter(variable != "total") %>%
 
 
 ########## JOB PER AGE AND POPULATION ############
-
-# Set your Census API key
-census_api_key("e1033d5f1984a86f511f881226b3e7049c649ef8
-", install = TRUE)
-
-census_api_key("e1033d5f1984a86f511f881226b3e7049c649ef8", install = TRUE, overwrite = TRUE)
-
-
-# Specify the ACS variables for employment, race, age, and gender
-# Using occupation codes (B24010) which are cross-tabulated by sex, race, and age
-
 
 # Load ACS variables for the 2021 ACS5 dataset
 acs_vars <- load_variables(2022, "acs5", cache = TRUE)
